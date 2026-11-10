@@ -1,18 +1,17 @@
-<section class="'hero">
+@if (resumeData(); as data)
+{<section class="'hero">
     <div class="hero_container">
-        <p class="hero_getting">Привет, гость 😸</p>
-        <h1 class="hero_title"> Меня зовут<span class="hero_accent"> Никита Пестов</span></h1>
-        
-        <h2 class="hero_subtitle">June (пока что) разработчик</h2>
+        <p class="hero_greeting">{{ data.greeting }}</p>
+        <h1 class="hero_title"> 
+            {{ data.firstName }} <span class="hero_accent">{{ data.lastName }}</span>
+        </h1>
+        <h2 class="hero_subtitle">{{ data.role }}</h2>
         <p class="hero_description">
-            Всю жизнь я постоянно к чему-то стремлюсь, и постоянно чем-то недоволен...
-            И сейчас, я решил, что если резюме, то со вкусом!
-            И вот почему вам нужен именно я:
+            {{ data.description }}
         </p>
-
         <div class="hero_actions">
-            <a href="#experience" class="btn btn--primary">Мои достижения 💪</a>
-            <a href="#contact" class="btn btn--secondary">Пишем не стесняемся ✍️</a>
+            <a href="#experience" class="btn btn--primary">{{ data.experience }}</a>
+            <a href="#contact" class="btn btn--secondary">{{ data.contact }}</a>
         </div>
     </div>
-</section>
+</section>}

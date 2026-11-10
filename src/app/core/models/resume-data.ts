@@ -1,7 +1,9 @@
 export interface ResumeData {
-    getting: string;
+    greeting: string;
     firstName: string;
     lastName: string;
     role: string;
     description: string;
+    experience: string;
+    contact: string;
 }
