@@ -4,6 +4,13 @@ export interface ResumeData {
     lastName: string;
     role: string;
     description: string;
-    experience: string;
+    experience: Experience[];
     contact: string;
+}
+
+export interface Experience {
+    company: string,
+    role: string;
+    period: string;
+    description: string;
 }

@@ -11,7 +11,7 @@ export class ResumeService{
     /*Dependensy injection*/
     private http = inject(HttpClient);
     /*Path to json */
-    private readonly dataUrl = '/assets/data/resume.json';
+    private readonly dataUrl = '/resume.json';
 
     getResumeData(): Observable<ResumeData> {
         /*Typifise obdervable by interface */

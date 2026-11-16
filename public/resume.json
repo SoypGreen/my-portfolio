@@ -4,6 +4,19 @@
     "lastName" : "Никита Пестов",
     "role" : "June (пока что) разработчик",
     "description" : "Всю жизнь я постоянно к чему-то стремлюсь, и постоянно чем-то недоволен...И сейчас, я решил, что если резюме, то со вкусом!И вот почему вам нужен именно я:",
-    "experience" : "Мои достижения 💪",
+    "experience" : [
+        {
+            "company" : "Nevsk",
+            "role" : "Engineer",
+            "period" : "2022-2023",
+            "description" : "Calculations"
+        },
+        {
+            "company" : "Klimov",
+            "role" : "Engineer",
+            "period" : "2023-2025",
+            "description" : "Calculations"
+        }
+    ],
     "contact" : "Пишем не стесняемся ✍️"
 }
