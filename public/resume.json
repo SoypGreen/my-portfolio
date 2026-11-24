@@ -24,5 +24,21 @@
             "description" : "Calculations, 2D and 3D drawings"
         }
     ],
-    "contact" : "Пишем не стесняемся ✍️"
+    "contact" : "Пишем не стесняемся ✍️",
+    "tools": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "SCSS / BEM",
+        "HTML5 / CSS3",
+        "Git / GitHub",
+        "Node.js",
+        "Vite / Webpack",
+        "C# / .NET / ASP .NET Core",
+        "bash",
+        "SQL / PostgreSQL / MySQL",
+        "Excel / Word / Power Point",
+        "Unit-tests / Html-tests",
+        "VS Code / Visual Studio Community"
+    ]
 }

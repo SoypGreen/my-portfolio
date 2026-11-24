@@ -1,0 +1,11 @@
+<section class="tools" id="tools">
+    <h2 class="tools_title">Мои инструменты</h2>
+
+    @if (resumeService.resumeData(); as data){
+        <ul class="tools_grid">
+            @for (tool of data.tools; track tool){
+                <li class="tools_badge">{{ tool }}</li>
+            }
+        </ul>
+    }
+</section>

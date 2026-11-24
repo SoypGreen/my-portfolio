@@ -6,6 +6,7 @@ export interface ResumeData {
     description: string;
     experience: Experience[];
     contact: string;
+    tools: string[];
 }
 
 export interface Experience {
