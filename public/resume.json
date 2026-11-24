@@ -6,16 +6,22 @@
     "description" : "Всю жизнь я постоянно к чему-то стремлюсь, и постоянно чем-то недоволен...И сейчас, я решил, что если резюме, то со вкусом!И вот почему вам нужен именно я:",
     "experience" : [
         {
-            "company" : "Nevsk",
-            "role" : "Engineer",
-            "period" : "2022-2023",
-            "description" : "Calculations"
+            "company" : "AO ROMANOV",
+            "role" : "June Developer",
+            "period" : "2026-until now",
+            "description" : "Developing HelpDesk, WMS, MES."
         },
         {
             "company" : "Klimov",
             "role" : "Engineer",
             "period" : "2023-2025",
-            "description" : "Calculations"
+            "description" : "Calculations gas turbines, WPF apps"
+        },
+        {
+            "company" : "Nevsky",
+            "role" : "Engineer",
+            "period" : "2022-2023",
+            "description" : "Calculations, 2D and 3D drawings"
         }
     ],
     "contact" : "Пишем не стесняемся ✍️"

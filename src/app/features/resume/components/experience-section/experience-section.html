@@ -1,11 +1,15 @@
 <section class="experience" id="experience">
     <h2 class="experience_title">Experience</h2>
 
-    <div class="experience_list">
-        @for (exp of experience(); track exp.company){
-            <app-experience-card [experience]="exp"/>
-        } @empty {
-            <p>No experience</p>
-        }
-    </div>
+    @if(resumeService.resumeData(); as data) {
+        <div class="experience_list">
+            @for (exp of data.experience; track exp.company){
+                <app-experience-card [experience]="exp"/>
+            } @empty {
+                <p>No experience</p>
+            }
+        </div>
+    } @else if(resumeService.isLoading()){
+    <p>Загрузка опыта...</p>
+    }
 </section>

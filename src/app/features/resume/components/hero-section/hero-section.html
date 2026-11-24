@@ -1,5 +1,6 @@
-@if (resumeData(); as data)
-{<section class="'hero">
+@if (resumeService.resumeData(); as data)
+{
+<section class="'hero">
     <div class="hero_container">
         <p class="hero_greeting">{{ data.greeting }}</p>
         <h1 class="hero_title"> 
@@ -14,4 +15,7 @@
             <a href="#contact" class="btn btn--secondary">{{ data.contact }}</a>
         </div>
     </div>
-</section>}
+</section>
+} @else if(resumeService.isLoading()){
+    <div class="hero"><p>Загрузка...</p></div>
+}

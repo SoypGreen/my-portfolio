@@ -13,11 +13,8 @@ import { Experience } from '../../../../core/models/resume-data';
 
 export class ExperienceSection implements OnInit{
   private resumeService = inject(ResumeService);
-  public experience = signal<Experience[]>([]);
 
   ngOnInit(): void {
-    this.resumeService.getResumeData().subscribe(data => {
-      this.experience.set(data.experience);
-    });
+    this.resumeService.loadResumeData();
   }
 }

@@ -9,18 +9,11 @@ import { ResumeData } from '../../../../core/models/resume-data';
   templateUrl: './hero-section.html',
 })
 export class HeroSection implements OnInit {
-  private resumeService = inject(ResumeService);
-
-  public resumeData = signal<ResumeData | null>(null);
+  // form html
+  public resumeService = inject(ResumeService);
 
   ngOnInit(): void {
-    this.resumeService.getResumeData().subscribe({
-      next: (data) => {
-        this.resumeData.set(data);
-      },
-      error: (err) => {
-        console.error('Downloading error: ', err);
-      }
-    })
+    // give service task to download data
+    this.resumeService.loadResumeData();
   }
 }
