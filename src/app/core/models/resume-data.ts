@@ -1,3 +1,9 @@
+export interface Contact {
+    type: 'email' | 'github' | 'telegram' | 'VK';
+    label: string;
+    url: string;
+}
+
 export interface ResumeData {
     greeting: string;
     firstName: string;
@@ -5,7 +11,7 @@ export interface ResumeData {
     role: string;
     description: string;
     experience: Experience[];
-    contact: string;
+    contacts: Contact[];
     tools: string[];
 }
 

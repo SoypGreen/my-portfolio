@@ -24,7 +24,6 @@
             "description" : "Calculations, 2D and 3D drawings"
         }
     ],
-    "contact" : "Пишем не стесняемся ✍️",
     "tools": [
         "Angular",
         "TypeScript",
@@ -40,5 +39,11 @@
         "Excel / Word / Power Point",
         "Unit-tests / Html-tests",
         "VS Code / Visual Studio Community"
+    ],
+    "contacts": [
+        {"type": "email", "label": "Почта", "url": "mailto:nikita.pestov.2015@mail.ru"},
+        {"type": "github", "label": "GitHub", "url": "https://github.com/SoypGreen"},
+        {"type": "telegram", "label": "Telegram", "url": "https://web.telegram.org/a/"},
+        {"type": "VK", "label": "Вконтакте", "url": "https://vk.ru/soypgreen"}
     ]
 }
