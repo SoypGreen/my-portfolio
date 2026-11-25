@@ -32,3 +32,20 @@ body{
     font-family: var(--font-family);
     line-height: 1.6;
 }
+
+[appScrollReveal] {
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    will-change: opacity, transform;
+}
+
+// basic hidden state
+.reveal-hidden {
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+// state, when element on monitor
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+}

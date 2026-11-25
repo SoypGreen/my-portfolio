@@ -1,8 +1,9 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ResumeService } from '../../../../core/services/resume';
+import { ScrollReveal } from '../../../../shared/directives/scroll-reveal';
 
 @Component({
-  imports: [],
+  imports: [ScrollReveal],
   standalone: true,
   selector: 'app-contact-section',
   styleUrl: './contact-section.scss',
