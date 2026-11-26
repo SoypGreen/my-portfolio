@@ -35,10 +35,13 @@
         "C#",
         "ASP.NET Core",
         "bash",
-        "SQL / PostgreSQL / MySQL",
-        "Excel / Word / Power Point",
-        "Unit-tests / Html-tests",
-        "VS Code / Visual Studio Community"
+        "SQL",
+        "PostgreSQL", 
+        "MySQL",
+        "Excel / PowerPoint / Word",
+        "Unit-tests",
+        "VS Code",
+        "Visual Studio Community"
     ],
     "contacts": [
         {"type": "email", "label": "Почта", "url": "https://e.mail.ru/compose/?to=nikita.pestov.2015@mail.ru"},
