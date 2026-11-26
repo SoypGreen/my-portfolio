@@ -23,7 +23,7 @@ export class ScrollReveal implements OnInit, OnDestroy{
         }
       });
      }, {
-      threshold: 0.25
+      threshold: 0.2
      });
 
      this.observer.observe(this.el.nativeElement);

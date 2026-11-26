@@ -1,5 +1,5 @@
 .hero{
-    min-height: calc(100vh - 80px);
+    min-height: calc(110vh - 80px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,7 @@
     }
 
     &_greeting {
-        font-size: clamp(3rem, 3vw, 5rem);
+        font-size: clamp(4rem, 3vw, 4rem);
         color: var(--accent-color);
         font-weight: 900;
         margin-bottom: var(--space-sm);
@@ -30,7 +30,7 @@
     }
 
     &_subtitle {
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: var(--text-muted);
         font-weight: 500;
         margin-bottom: var(--space-lg);
@@ -40,7 +40,7 @@
         max-width: 800px;
         color: var(--text-muted);
         margin: 0 auto var(--space-xl) auto;
-        font-size: 2rem;
+        font-size: 1.25rem;
         line-height: 1.6;
     }
 
