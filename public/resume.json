@@ -1,5 +1,5 @@
 {
-  "greeting": "Приветствую - гость моего резюме 😌",
+  "greeting": "Приветствую, гость моего резюме 😌",
   "firstName": "Никита",
   "lastName": "Пестов",
   "role": "Fullstack Developer (C#, ASP.NET Core, Angular, Node.js)",
@@ -62,7 +62,7 @@
     {
       "type": "telegram", 
       "label": "Telegram", 
-      "url": "https://web.telegram.org/a/"
+      "url": "https://t.me/soypgreen"
     },
     {
       "type": "VK",
