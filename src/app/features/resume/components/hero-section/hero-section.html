@@ -4,15 +4,16 @@
     <div class="hero_container">
         <p class="hero_greeting">{{ data.greeting }}</p>
         <h1 class="hero_title"> 
-            {{ data.firstName }} <span class="hero_accent">{{ data.lastName }}</span>
+             Я - <span class="hero_accent">{{ data.lastName }} {{ data.firstName }}</span>
         </h1>
         <h2 class="hero_subtitle">{{ data.role }}</h2>
         <p class="hero_description">
             {{ data.description }}
         </p>
         <div class="hero_actions">
-            <a href="#experience" class="btn btn--primary"> Мой опыт</a>
-            <a href="#contact" class="btn btn--secondary">Пишем не стесняемся ✍️</a>
+            <a href="#experience" class="btn btn--primary"> Мой опыт </a>
+
+            <a href="#contact" class="btn btn--secondary"> Контактная информация </a>
         </div>
     </div>
 </section>

@@ -7,6 +7,7 @@
 
     &_container {
         max-width: 1500px;
+        text-align: center;
     }
 
     &_greeting {
@@ -36,14 +37,15 @@
     }
 
     &_description {
-        max-width: 1000px;
+        max-width: 1500px;
         color: var(--text-muted);
         margin-bottom: var(--space-xl);
         font-size: 2rem;
     }
 
-    &_action {
+    &_actions {
         display: flex;
+        justify-content: center;
         gap: var(--space-md);
     }
 }
@@ -54,7 +56,6 @@
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-
     &--primary {
         background-color: var(--accent-color);
         color: var(--bg-color);
@@ -68,7 +69,7 @@
     &--secondary {
         border: 1px solid var(--text-muted);
         color: var(--text-main);
-    
+
         &:hover{
             border-color: var(--accent-color);
             color: var(--accent-color);

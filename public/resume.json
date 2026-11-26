@@ -1,52 +1,73 @@
 {
-    "greeting" : "Приветствую - гость моего резюме 😌",
-    "firstName" : "Никита",
-    "lastName" : "Пестов",
-    "role" : "Fullstack Developer (Angular, Node.js, C#, ASP.NET Core)",
-    "description" : "Ниже вы можете ознакомиться с моим опытом работы, навыками и контактной информацией. Я стремлюсь к постоянному развитию и открыт для новых возможностей в сфере разработки программного обеспечения 💻",
-    "experience" : [
-        {
-            "company" : "AO 'ROMANOV'",
-            "role" : "Junior Developer",
-            "period" : "2026-until now",
-            "description" : "Developing HelpDesk, WMS, MES."
-        },
-        {
-            "company" : "AO 'Klimov'",
-            "role" : "Engineer",
-            "period" : "2023-2025",
-            "description" : "Calculations gas turbines, WPF apps"
-        },
-        {
-            "company" : "Nevsky",
-            "role" : "Engineer",
-            "period" : "2022-2023",
-            "description" : "Calculations, 2D and 3D drawings"
-        }
-    ],
-    "tools": [
-        "Angular",
-        "TypeScript",
-        "RxJS",
-        "SCSS",
-        "HTML5 / CSS3",
-        "Git / GitHub",
-        "Node.js",
-        "C#",
-        "ASP.NET Core",
-        "bash",
-        "SQL",
-        "PostgreSQL", 
-        "MySQL",
-        "Excel / PowerPoint / Word",
-        "Unit-tests",
-        "VS Code",
-        "Visual Studio Community"
-    ],
-    "contacts": [
-        {"type": "email", "label": "Почта", "url": "https://e.mail.ru/compose/?to=nikita.pestov.2015@mail.ru"},
-        {"type": "github", "label": "GitHub", "url": "https://github.com/SoypGreen"},
-        {"type": "telegram", "label": "Telegram", "url": "https://web.telegram.org/a/"},
-        {"type": "VK", "label": "Вконтакте", "url": "https://vk.ru/soypgreen"}
-    ]
+  "greeting": "Приветствую - гость моего резюме 😌",
+  "firstName": "Никита",
+  "lastName": "Пестов",
+  "role": "Fullstack Developer (C#, ASP.NET Core, Angular, Node.js)",
+  "description": "Разрабатываю API и бизнес-логику на ASP.NET Core, проектирую базы данных и работаю с EF Core. Рассматриваю .NET-бэкенд и full-stack роли с фокусом на серверной части. Санкт-Петербург или удалённо.",
+  "experience": [
+    {
+      "company": "РОМАНОВ",
+      "role": "Младший программист",
+      "period": "Январь 2026 — настоящее время",
+      "description": "Самостоятельно разработал и внедрил HelpDesk на ASP.NET Core и Razor Pages. Система заменила бумажные заявки на работы вне основного производственного процесса. С мая по ноябрь 2026 года в системе создали 300 заявок. Около 100 активных пользователей, около 15 подразделений-заказчиков. В первой версии спроектировал БД, реализовал обработку заявок, уведомления и панель администратора. Настроил развёртывание в IIS, покрыл критичные сценарии тестами xUnit, перенёс БД с SQL Server на PostgreSQL и настроил резервное копирование. При переходе на SPA с Angular отвечал за бэкенд: разрабатывал API и бизнес-логику, выносил её из контроллеров в сервисы, проектировал схему БД, устранял N+1 в запросах EF Core и проводил ревью кода. Также автоматизировал запуск браузера на терминалах Raspberry Pi в режиме киоска с помощью Bash."
+    },
+    {
+      "company": "Климов, ОАО",
+      "role": "Инженер",
+      "period": "Ноябрь 2024 — ноябрь 2025",
+      "description": "Разработал с нуля настольное приложение на C#/.NET для расчёта физических параметров газа. Реализовал сохранение результатов в базе данных, импорт и экспорт данных. Приложением пользовались четыре сотрудника отдела, включая меня."
+    },
+    {
+      "company": "Невский завод",
+      "role": "Инженер",
+      "period": "Октябрь 2023 — июль 2024",
+      "description": "Разрабатывал чертежи и 3D-модели, готовил отчётную документацию. Работал с КОМПАС-3D, Ansys и SolidWorks."
+    }
+  ],
+  "tools": [
+    "C#",
+    ".NET",
+    "ASP.NET Core",
+    "ASP.NET Core Web API",
+    "REST API",
+    "EF Core",
+    "SQL",
+    "PostgreSQL",
+    "Microsoft SQL Server",
+    "xUnit",
+    "MediatR",
+    "CQRS",
+    "FluentValidation",
+    "Serilog",
+    "ClosedXML",
+    "Razor Pages",
+    "HTML / CSS",
+    "Git",
+    "Azure DevOps",
+    "IIS",
+    "Linux / Bash",
+    "Английский — B2"
+  ],
+  "contacts": [
+    {
+      "type": "email",
+      "label": "Почта",
+      "url": "https://e.mail.ru/compose/?to=nikita.pestov.2015@mail.ru"
+    },
+    {
+      "type": "github",
+      "label": "GitHub",
+      "url": "https://github.com/SoypGreen"
+    },
+    {
+      "type": "telegram", 
+      "label": "Telegram", 
+      "url": "https://web.telegram.org/a/"
+    },
+    {
+      "type": "VK",
+      "label": "ВКонтакте",
+      "url": "https://vk.ru/soypgreen"
+    }
+  ]
 }
