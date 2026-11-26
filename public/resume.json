@@ -1,18 +1,18 @@
 {
-    "greeting" : "Привет, гость 😸. Меня зовут",
+    "greeting" : "Приветствую - гость моего резюме 😌",
     "firstName" : "Никита",
     "lastName" : "Пестов",
-    "role" : "June (пока что) разработчик",
-    "description" : "Всю жизнь я постоянно к чему-то стремлюсь, и постоянно чем-то недоволен...И сейчас, я решил, что если резюме, то со вкусом!И вот почему вам нужен именно я:",
+    "role" : "Fullstack Developer (Angular, Node.js, C#, ASP.NET Core)",
+    "description" : "Ниже вы можете ознакомиться с моим опытом работы, навыками и контактной информацией. Я стремлюсь к постоянному развитию и открыт для новых возможностей в сфере разработки программного обеспечения 💻",
     "experience" : [
         {
-            "company" : "AO ROMANOV",
-            "role" : "June Developer",
+            "company" : "AO 'ROMANOV'",
+            "role" : "Junior Developer",
             "period" : "2026-until now",
             "description" : "Developing HelpDesk, WMS, MES."
         },
         {
-            "company" : "Klimov",
+            "company" : "AO 'Klimov'",
             "role" : "Engineer",
             "period" : "2023-2025",
             "description" : "Calculations gas turbines, WPF apps"
@@ -28,12 +28,12 @@
         "Angular",
         "TypeScript",
         "RxJS",
-        "SCSS / BEM",
+        "SCSS",
         "HTML5 / CSS3",
         "Git / GitHub",
         "Node.js",
-        "Vite / Webpack",
-        "C# / .NET / ASP .NET Core",
+        "C#",
+        "ASP.NET Core",
         "bash",
         "SQL / PostgreSQL / MySQL",
         "Excel / Word / Power Point",
@@ -41,7 +41,7 @@
         "VS Code / Visual Studio Community"
     ],
     "contacts": [
-        {"type": "email", "label": "Почта", "url": "mailto:nikita.pestov.2015@mail.ru"},
+        {"type": "email", "label": "Почта", "url": "https://e.mail.ru/compose/?to=nikita.pestov.2015@mail.ru"},
         {"type": "github", "label": "GitHub", "url": "https://github.com/SoypGreen"},
         {"type": "telegram", "label": "Telegram", "url": "https://web.telegram.org/a/"},
         {"type": "VK", "label": "Вконтакте", "url": "https://vk.ru/soypgreen"}
