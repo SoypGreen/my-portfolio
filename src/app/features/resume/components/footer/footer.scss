@@ -1,0 +1,50 @@
+.footer {
+  padding: var(--space-lg);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+  &__container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; // Центрируем копирайт
+    align-items: center;
+  }
+
+  &__copyright {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+}
+
+/* Стили для плавающей кнопки */
+.scroll-top-btn {
+  position: fixed; // Фиксируем на экране
+  bottom: 30px; // Отступ снизу
+  right: 30px; // Отступ справа
+  width: 50px; // Сделаем ее чуть больше
+  height: 50px;
+  border-radius: 50%;
+  background: var(--bg-color); // Темный фон
+  border: 2px solid var(--accent-color); // Яркая рамка, чтобы было заметно
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); // Тень, чтобы выделялась на фоне
+  z-index: 1000; // Чтобы кнопка всегда была поверх других элементов
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  &:hover {
+    background: var(--accent-color);
+    color: var(--bg-color); // Инверсия цвета при наведении
+    transform: translateY(-5px); // Подпрыгивает
+  }
+}
