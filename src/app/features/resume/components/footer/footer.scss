@@ -7,7 +7,7 @@
     max-width: 800px;
     margin: 0 auto;
     display: flex;
-    justify-content: center; // Центрируем копирайт
+    justify-content: center;
     align-items: center;
   }
 
@@ -20,22 +20,22 @@
 
 /* Стили для плавающей кнопки */
 .scroll-top-btn {
-  position: fixed; // Фиксируем на экране
-  bottom: 30px; // Отступ снизу
-  right: 30px; // Отступ справа
-  width: 50px; // Сделаем ее чуть больше
+  position: fixed; 
+  bottom: 30px;
+  right: 30px; 
+  width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: var(--bg-color); // Темный фон
-  border: 2px solid var(--accent-color); // Яркая рамка, чтобы было заметно
+  background: var(--bg-color);
+  border: 2px solid var(--accent-color);
   color: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); // Тень, чтобы выделялась на фоне
-  z-index: 1000; // Чтобы кнопка всегда была поверх других элементов
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
 
   svg {
     width: 24px;
@@ -44,7 +44,7 @@
 
   &:hover {
     background: var(--accent-color);
-    color: var(--bg-color); // Инверсия цвета при наведении
-    transform: translateY(-5px); // Подпрыгивает
+    color: var(--bg-color);
+    transform: translateY(-5px);
   }
 }
