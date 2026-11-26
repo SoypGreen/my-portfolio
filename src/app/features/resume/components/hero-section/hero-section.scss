@@ -1,26 +1,26 @@
 .hero{
-    min-height: 100vh;
+    min-height: calc(100vh - 80px);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 var(--space-lg);
 
     &_container {
-        max-width: 1500px;
+        max-width: 1000px;
         text-align: center;
     }
 
     &_greeting {
         font-size: clamp(3rem, 3vw, 5rem);
         color: var(--accent-color);
-        font-weight: 1000;
+        font-weight: 900;
         margin-bottom: var(--space-sm);
         letter-spacing: 1px;
     }
 
     &_title {
-        font-size: clamp(6rem, 5vw, 8rem);
-        line-height: 2.1;
+        font-size: clamp(3rem, 6vw, 6rem);
+        line-height: 1.1;
         font-weight: 700;
         margin-bottom: var(--space-md);
     }
@@ -32,15 +32,16 @@
     &_subtitle {
         font-size: 2.5rem;
         color: var(--text-muted);
-        font-weight: 700;
+        font-weight: 500;
         margin-bottom: var(--space-lg);
     }
 
     &_description {
-        max-width: 1500px;
+        max-width: 800px;
         color: var(--text-muted);
-        margin-bottom: var(--space-xl);
+        margin: 0 auto var(--space-xl) auto;
         font-size: 2rem;
+        line-height: 1.6;
     }
 
     &_actions {
